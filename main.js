@@ -29,7 +29,7 @@ const cantidad = (cant, precio) => {
 //función para envio del producto//
 function envio(){
     let envio = prompt("Por último, ¿cómo quieres recibir el producto?")
-    
+
 }
 
 while (seleccionarProductos != 0) {
@@ -79,4 +79,4 @@ while (seleccionarProductos != 0) {
     seleccionarProductos = Number(prompt("1-¿Qué tienes en tu mano? (Mariana Maillet) valor: $1500\n2-Antidotos contra la religión (Juan Pablo Sosa) valor: 1500$\n3-Mujer Maravilla (Natalia Spetale) valor: $1500\n4-Hijos de la Promesa (Ezequiel Rossini) valor: $1500\n5-La vida de Grace (Natalia Spetale) valor: $1500\n6-Diseñados para una vida Saludable (María José Amiunes) valor: $1500"))
 }
 
-alert(`¡Gracias por tu compra! Has adquirido productos en Ediciones VS.\n Precio de cada libro: $1500\n  Cantidad: ${seleccionarCantidad}\n\nEl total de tu compra es: $${total}. ¡Esperamos que disfrutes de tu compra!`);
+alert(`¡Gracias por tu compra! Has adquirido productos en Ediciones VS.\nPrecio de cada libro: $1500\nEl total de tu compra es: $${total}. ¡Esperamos que disfrutes de tu compra!`);
